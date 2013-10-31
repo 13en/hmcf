@@ -1,0 +1,66 @@
+##########################################################
+##                                                       #
+##                       HT_PASSWD                       #
+##                                                       #
+##########################################################
+#
+#AuthType Basic
+#AuthName "Protected"
+#AuthUserFile "/home/christth/.htpasswds/beta/passwd"
+#require valid-user
+
+
+
+#########################################################
+#                                                       #
+#                      Error pages                      #
+#                                                       #
+#########################################################
+
+ErrorDocument 404 /output.php?HMCF_PAGE=404
+
+
+
+#########################################################
+#                                                       #
+#                      MOD_REWRITE                      #
+#                                                       #
+#########################################################
+
+RewriteEngine On
+
+
+################ force trailing slashes #################
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule	^(.*[^/])$							/$1/									[L,R=301]
+
+
+######################## popups #########################
+
+RewriteRule	^content-control(/?)(.*)$					/__hmcf-admin/$2							[L,QSA]
+
+
+######################## popups #########################
+
+# mobile alerts
+RewriteRule	^(mobile-alerts)(/?)$						pop.php?HMCF_PAGE=$1							[L,QSA]
+RewriteRule	^(do-)(mobile-alerts)(/?)$					process.php?HMCF_PROCESS=$2						[L]
+
+
+###################### main pages #######################
+
+# home
+RewriteRule	^(/?)$								output.php?HMCF_PAGE=home						[L]
+
+# parents pages
+RewriteRule	^(parents)/(mission-statement|admissions|curriculum)(/?)$	output.php?HMCF_PAGE=$1__$2						[L]
+RewriteRule	^(parents)/(uniform|policies-and-documents|mailings)(/?)$	output.php?HMCF_PAGE=$1__$2						[L]
+
+# classes pages
+RewriteRule	^(classes)/(nursery|reception|y1|y2|y3|y4|y5|y6)(/?)$		output.php?HMCF_PAGE=$1__$2						[L]
+
+# other pages
+RewriteRule	^(parents|staff|news|school-dates|pta|links)(/?)$		output.php?HMCF_PAGE=$1							[L]
+RewriteRule	^(classes|contact|terms|site-map)(/?)$				output.php?HMCF_PAGE=$1							[L]

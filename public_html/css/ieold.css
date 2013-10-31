@@ -1,0 +1,37 @@
+body#page_home section#core_content .full_content .bg_imgs .id1 { background:url('../img/home/bg-1.jpg') no-repeat scroll center center #ffffff; }
+body#page_home section#core_content .full_content .bg_imgs .id2 { background:url('../img/home/bg-2.jpg') no-repeat scroll center center #ffffff; }
+body#page_home section#core_content .full_content .bg_imgs .id3 { background:url('../img/home/bg-3.jpg') no-repeat scroll center center #ffffff; }
+body#page_home section#core_content .full_content .bg_imgs .id4 { background:url('../img/home/bg-4.jpg') no-repeat scroll center center #ffffff; }
+body#page_home section#core_content .full_content .bg_imgs .id5 { background:url('../img/home/bg-5.jpg') no-repeat scroll center center #ffffff; }
+body#page_home section#core_content .full_content .bg_imgs .id6 { background:url('../img/home/bg-6.jpg') no-repeat scroll center center #ffffff; }
+body#page_home section#core_content .full_content .bg_imgs .id7 { background:url('../img/home/bg-7.jpg') no-repeat scroll center center #ffffff; }
+body#page_home section#core_content .full_content .bg_imgs .id8 { background:url('../img/home/bg-8.jpg') no-repeat scroll center center #ffffff; }
+body#page_home section#core_content .full_content .bg_imgs .id9 { background:url('../img/home/bg-9.jpg') no-repeat scroll center center #ffffff; }
+body#page_home section#core_content .full_content .bg_imgs .id10 { background:url('../img/home/bg-10.jpg') no-repeat scroll center center #ffffff; }
+body#page_parents section#core_content .full_content .bg_img { background:url('../img/top/parents.jpg') no-repeat scroll center center #ffffff; }
+body#page_parents__mission_statement section#core_content .full_content .bg_img { background:url('../img/top/parents__mission_statement.jpg') no-repeat scroll center center #ffffff; }
+body#page_parents__admissions section#core_content .full_content .bg_img { background:url('../img/top/parents__admissions.jpg') no-repeat scroll center center #ffffff; }
+body#page_parents__curriculum section#core_content .full_content .bg_img { background:url('../img/top/parents__curriculum.jpg') no-repeat scroll center center #ffffff; }
+body#page_parents__uniform section#core_content .full_content .bg_img { background:url('../img/top/parents__uniform.jpg') no-repeat scroll center center #ffffff; }
+body#page_parents__policies_and_documents section#core_content .full_content .bg_img { background:url('../img/top/parents__policies_and_documents.jpg') no-repeat scroll center center #ffffff; }
+body#page_parents__mailings section#core_content .full_content .bg_img { background:url('../img/top/parents__mailings.jpg') no-repeat scroll center center #ffffff; }
+body#page_staff section#core_content .full_content .bg_img { background:url('../img/top/staff.jpg') no-repeat scroll center center #ffffff; }
+body#page_news section#core_content .full_content .bg_img { background:url('../img/top/news.jpg') no-repeat scroll center center #ffffff; }
+body#page_school-dates section#core_content .full_content .bg_img { background:url('../img/top/school_dates.jpg') no-repeat scroll center center #ffffff; }
+body#page_pta section#core_content .full_content .bg_img { background:url('../img/top/pta.jpg') no-repeat scroll center center #ffffff; }
+body#page_links section#core_content .full_content .bg_img { background:url('../img/top/links.jpg') no-repeat scroll center center #ffffff; }
+body#page_classes section#core_content .full_content .bg_img { background:url('../img/top/classes.jpg') no-repeat scroll center center #ffffff; }
+body#page_classes__nursery section#core_content .full_content .bg_img { background:url('../img/top/classes__nursery.jpg') no-repeat scroll center center #ffffff; }
+body#page_classes__reception section#core_content .full_content .bg_img { background:url('../img/top/classes__reception.jpg') no-repeat scroll center center #ffffff; }
+body#page_classes__y1 section#core_content .full_content .bg_img { background:url('../img/top/classes__y1.jpg') no-repeat scroll center center #ffffff; }
+body#page_classes__y2 section#core_content .full_content .bg_img { background:url('../img/top/classes__y2.jpg') no-repeat scroll center center #ffffff; }
+body#page_classes__y3 section#core_content .full_content .bg_img { background:url('../img/top/classes__y3.jpg') no-repeat scroll center center #ffffff; }
+body#page_classes__y4 section#core_content .full_content .bg_img { background:url('../img/top/classes__y4.jpg') no-repeat scroll center center #ffffff; }
+body#page_classes__y5 section#core_content .full_content .bg_img { background:url('../img/top/classes__y5.jpg') no-repeat scroll center center #ffffff; }
+body#page_classes__y6 section#core_content .full_content .bg_img { background:url('../img/top/classes__y6.jpg') no-repeat scroll center center #ffffff; }
+body#page_contact section#core_content .full_content .bg_img { background:url('../img/top/contact.jpg') no-repeat scroll center center #ffffff; }
+body#page_terms section#core_content .full_content .bg_img { background:url('../img/top/terms.jpg') no-repeat scroll center center #ffffff; }
+body#page_site_map section#core_content .full_content .bg_img { background:url('../img/top/site_map.jpg') no-repeat scroll center center #ffffff; }
+
+section#core_content { top:-60px; margin:0 !important; }
+footer { position:relative; top:-60px; }

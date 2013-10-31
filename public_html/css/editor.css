@@ -1,0 +1,6 @@
+.bold { font-weight:bold; }
+.italic { font-style:italic; }
+.blue { color:#212969; }
+.red { color:#e32528; }
+.subheading { font-size:1.1em; font-weight:bold; }
+.divider { height:1px; width:100%; background-color:#6d6d6e; margin:20px 0; }
