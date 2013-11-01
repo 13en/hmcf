@@ -69,6 +69,30 @@ abstract class HMCFBase {
 	}
 
 
+	protected function getOutputDynamic($tpl) {
+
+		$pageElements = $this->Data->getPageContent($this->pageID);
+
+		if(isset($pageElements->updated)) {
+
+			$this->updateID = dechex($pageElements->updated);
+
+		} else {
+
+			$this->updateID = '';
+
+		}
+
+		$template = $this->Config->PATH->PAGES . $tpl . '.tpl';
+		if(is_file($template)) {
+
+			require_once $template;
+
+		}
+
+	}
+
+
 	public function getPageElement($var) {
 
 		return isset($this->pageContent->$var) ? $this->pageContent->$var : null;

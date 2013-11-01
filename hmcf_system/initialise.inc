@@ -19,7 +19,16 @@ class HMCF extends HMCFBase {
 	public function output() {
 
 		$this->pageContent = new stdClass();
-		$this->getOutputGeneral();
+
+		if(strpos($this->pageID, 'blog__') === 0) {
+
+			$this->getOutputDynamic('blog.entry');
+
+		} else {
+
+			$this->getOutputGeneral();
+
+		}
 
 	}
 
